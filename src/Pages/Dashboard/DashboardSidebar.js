@@ -54,8 +54,8 @@ const DashboardSidebar = () => {
 
   const drawer = (
     <div>
-      <div>
-        <Typography variant="h6" sx={{ fontWeight: "500" }}>
+      <div style={{ position: "relative", top: "30px", left: "25px" }}>
+        <Typography variant="h5" sx={{ fontWeight: "500" }}>
           DiscussHub Chats
         </Typography>
       </div>
